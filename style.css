@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#upper-nav{
+    margin-top: 70px;
+}
+#upper-nav .names{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+    font-size: 7rem;
+    color: #73849D;
+    font-family: French Script MT;
+    
+}
+
+#lower-nav ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 80px;
+}
+#lower-nav ul li {
+    text-decoration: none;
+    font-size: medium;
+    font-size: 30px;
+    color: #73849D;
+    font-family: French Script MT;
+}
+
+
+.first-pictures{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 90px;
+    padding: 0px 40px;
+}
+
+#details{
+    text-align: center;
+    color: #73849D;
+}
+#details .date{
+    font-family: French Script MT;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+#details .location{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#details .time{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#details .dresscode{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#details .box{
+    margin-top: 25px;
+  margin-bottom: 50px;
+}
+#details .box .btn{
+    font-size: 20px;
+    padding: 15px 100px;
+    text-decoration: none;
+    color: #73849D;
+    border: 2px solid #73849D;
+    border-radius: 12px;
+  background-color: white;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
+}
+
+#story{
+    padding: 20px 300px;
+    margin-bottom: 50px;
+    display: flex;
+    color: #73849D;
+    justify-content: space-evenly;
+}
+#story .left{
+    margin-right: 100px;
+    margin-top: 75px;
+}
+#story .right{
+    margin-left: 100px;
+    margin-top: 75px;
+}
+#story .text{
+    text-align: center;
+    justify-content: space-around;
+}
+#story .text h2{
+    font-family: French Script MT;
+    font-size: 50px;
+}
+
+#moments{
+    color: #73849D;
+}
+#moments .top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    margin-bottom: 50px;
+}
+#moments .top .left{
+    font-family: French Script MT;
+    font-size: 75px;
+}
+#moments .top .right{
+    font-size: 20px;
+    padding: 15px 50px;
+    text-decoration: dashed;
+    color: #73849D;
+    border: 2px solid #73849D;
+    border-radius: 12px;
+  background-color: white;
+}
+#moments .middle-pictures{
+    display: flex;
+    margin: 30px 150px;
+    justify-content: space-evenly;
+}
+#moments .middle-pictures .arrow{
+    margin-top: 250px;
+}
+#moments .middle-pictures img{
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+#moments .middle-t{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+    margin-bottom: 50px;
+}
+#moments .middle-t .left-t{
+    font-family: French Script MT;
+    font-size: 75px;
+}
+#moments .middle-t .right-t{
+    font-size: 20px;
+    padding: 15px 50px;
+    text-decoration: dashed;
+    color: #73849D;
+    border: 2px solid #73849D;
+    border-radius: 12px;
+  background-color: white;
+}
+
+
+#moments .middl-pictures{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 190px;
+    
+}
+#moments .middl-pictures span img{
+    border: 2px solid white;
+    border-radius: 12px;
+}
+#moments .middl-pictures span h2{
+    color: black;
+}
+#moments .middl-pictures span .cart{ 
+    border: 2px solid #73849D;
+    border-radius: 12px;
+    justify-content: center;
+    background-color: #73849D;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    /* padding-left: 200px; */
+}
+#moments .middl-pictures span .cart{
+    color: white;
+}
+
+
+#special{
+    color: #73849D;
+    margin-bottom: 100px;
+}
+#special .h{
+    text-align: center;
+    font-size: 50px;
+    font-family: French Script MT;
+    margin-bottom: 40px;
+}
+#special .u-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+#special .u-text p{
+    border: 2px solid #73849D;
+    border-radius: 12px;
+    padding: 100px 75px;
+}
+#special .l-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+#special .l-text p{
+    border: 2px solid #73849D;
+    border-radius: 12px;
+    padding: 100px 75px;
+}
